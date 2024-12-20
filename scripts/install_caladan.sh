@@ -15,7 +15,7 @@ git submodule update --init --recursive -f caladan
 
 # Apply patches
 cd $CALADAN_DIR/
-git am $CALADAN_PATCHES_DIR/*
+# git am $CALADAN_PATCHES_DIR/*    I don't need this anymore, since I've done the patching myself. (2024.12.19)
 
 # Install Caladan
 make submodules
